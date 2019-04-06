@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+  font: 400 46px "Quicksand", sans-serif;
+  color:#fff;
+  text-align:center;
+}
+
+
+html {
+  background: linear-gradient(45deg,#ff00cc,#333399);
+  background-attachment: fixed;
+}
+
+
+#kalkulator {
+  width: 325px;
+  height: auto;
+  margin: 100px auto;
+  padding: 20px 20px 9px;
+  border-radius: 8px;
+}
+
+.top  span.clear{
+  float: left;
+}
+
+
+.top .layar {
+  height:90px;
+  width: 100%;
+  padding: 0 10px;
+  background: rgba(154, 185, 188, 0.8);
+  border-radius: 5px;
+  margin-bottom:10px;
+  font-size: 30px;
+  line-height: 90px;
+  color: white;
+  text-align: right;
+  overflow:auto;
+}
+
+.tombol  {
+  overflow: hidden;
+}
+
+.tombol span, .top span.clear {
+  float: left;
+  position: relative;
+  top: 0;
+  background: #A1FFCE;
+  font-size:27px;
+  cursor: pointer;
+  width: 66px;
+  height: 46px;
+  border-radius: 5px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  margin: 0 7px 11px 0;
+  color: #ff00cc;
+  line-height: 46px;
+  text-align: center;
+  user-select: none;
+  outline: 0 solid;
+  transition: all 0.2s ease;
+}
+
+
+.tombol span.operator {
+  background: #2196F3;
+  color: white;
+  margin-right: 0;
+}
+
+.tombol span.operator sup {
+  font-size: 50%;
+  vertical-align: top;
+  color:#f1c851;
+}
+
+.tombol span.eval {
+  background: #acf35a;
+  box-shadow: 0px 4px #4d9000;
+  color: #FF5722;
+  width: 212px;
+}
+
+span.clear {
+  background: #FFEB3B;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  color: #ff00cc;
+}
+
+
+.tombol span:hover {
+  background: #00eff1;
+  color: white;
+}
+
+.tombol span.eval:hover {
+  background: #00ff15;
+  box-shadow: 0px 4px #008e11;
+  color: #ffffff;
+}
+
+.tombol span.operator:hover {
+  background: #2156f3;
+  color: #ffffff;
+}
+
+.top span.clear:hover {
+  background: #ffc107;
+  box-shadow: 0px 4px #d3545d;
+  color: white;
+}
+
+.tombol span.clear:hover {
+  background: #ffc107;
+  color: white;
+}
+
+
+.tombol span:active {
+  box-shadow: 0px 0px #6b54d3;
+  top: 4px;
+}
+
+.tombol span.eval:active {
+  box-shadow: 0px 0px #717a33;
+  top: 4px;
+}
+
+.top span.clear:active {
+  top: 4px;
+  box-shadow: 0px 0px #d3545d;
+}
+
+.float{
+  position:fixed;
+  width:50px;
+  height:50px;
+  bottom:40px;
+  right:40px;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.my-float{
+  width:50px;
+  height:50px;
+}
