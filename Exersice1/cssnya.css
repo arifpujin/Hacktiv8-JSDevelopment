@@ -1,0 +1,273 @@
+	* {	margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	header,section {
+		display: block;
+	}
+	
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	html,body {
+		height: 100%;
+		background-image: url('./1.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+		line-height: 1;
+		background-size: 100%
+
+	}
+
+	h1 {
+		text-transform: uppercase;
+	}
+	
+	body{
+		color: #414f57;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 14pt;
+		font-weight: 300;
+		line-height: 2;
+		letter-spacing: 0.1em;
+	}
+	.judul{
+		font-size: 25px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+ 	#badan {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		position: relative;
+		min-height: 100%;
+		padding: 1.5em;
+		z-index: 2;
+	}
+
+	#badan > * {
+		z-index: 1;
+	}
+
+	#badan:before {
+		content: '';
+		display: block;
+	}
+
+	.isi-tengah {
+		background-color: #eaeaea;
+		position: relative;
+		max-width: 100%;
+		min-width: 27em;
+		padding: 4.5em 3em 3em 3em;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	.isi-tengah .foto {
+		position: relative;
+		display: block;
+		margin-bottom: 1.5em;
+	}
+
+	.isi-tengah .foto img {
+		display: block;
+		margin: 0 auto;
+		border-radius: 100%;
+		box-shadow: 0 0 0 1.5em #eaeaea;
+	}
+
+	.isi-tengah .foto:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: -3em;
+		width: calc(100% + 6em);
+		height: 2px;
+		z-index: -1;
+		background: #c8cccf;
+	}
+
+	a{
+		height: 2.75em;
+		font-size: 12px;
+		text-align: center;
+		text-transform: uppercase;
+		line-height: 2.75em;
+		padding: 1em;
+		color: black;
+		background-color: #eaeaea;
+		border-radius: 4px;
+		border: solid 1px #c8cccf;
+		cursor: pointer;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		background-color: #5d5d5d;
+		color: white;
+		transition: 1s
+	}
+
+	.texttengah{
+		text-align: center;
+	}
+
+	.tooltip {
+    	position: relative;
+    	display: inline-block;
+	}
+
+	.tooltip .tooltiptext {
+   		visibility: hidden;
+ 		width: 120px;
+    	background-color: black;
+    	color: #fff;
+    	text-align: center;
+    	font-size: 5pt;
+    	text-transform: uppercase;
+    	border-radius: 6px;
+    	padding: 5px 0;
+    	position: absolute;
+    	z-index: 1;
+   		top: 150%;
+    	left: 50%;
+    	margin-left: -60px;
+	}
+
+	.tooltip .tooltiptext::after {
+   		content: "";
+   		position: absolute;
+    	bottom: 100%;
+    	left: 50%;
+    	margin-left: -5px;
+    	border-width: 5px;
+    	border-style: solid;
+    	border-color: transparent transparent black transparent;
+	}
+
+	.tooltip:hover .tooltiptext {
+    	visibility: visible;
+	}
+
+	::-webkit-scrollbar {
+    	width: 10px;
+	}
+ 
+	::-webkit-scrollbar-track {     
+    	background: #c1c1c1;    
+	}
+ 
+	::-webkit-scrollbar-thumb {
+    	background: #8c8c8c;
+    	border-radius: 15px;
+	}	
+	
+	.footer {
+		color: grey;
+		cursor: pointer;
+		text-align: center;
+	}
+
+	.footer:hover {
+		color: #000000;
+		transition: 1s;
+
+	}
+	.butama {
+		border: 1px solid white;
+		border-radius: 5px;
+		background-color: #fff;
+		padding: 1em;
+		max-width: 80%;
+		margin: auto;
+		position: relative;
+		opacity: 0.7;
+		cursor: default;
+	}
+
+	.butama:hover{
+		transition: 3s;
+		background-color: transparent;
+
+	}
+
+	.kolom-tengah{
+		text-align: center;
+		padding: 1.1em;
+		border-radius: 10px;
+	}
+
+	.kolom-tengah:hover{
+		border: 1.3px solid black;
+		transition: 2.5s;
+		border-radius: 15px;
+		background-color: lightgray;
+		color: black;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	.kolom1{
+		position: relative;
+		display: inline-block;
+		margin-left: 2%;
+
+	}
+	.kolom1:hover{
+		border: 1px solid gray;
+		background-color: gray;
+		border-radius: 5px;
+		color: white;
+		padding: 1em;
+		transition: 2s;
+		cursor: pointer;
+	}
+
+	.kolom2{
+		position: relative;
+		margin-left: 20%;
+		margin-right: 5%;
+
+	}
+
+	.kolom2:hover{
+		border: 1px solid gray;
+		background-color: gray;
+		border-radius: 5px;
+		color: white;
+		padding: 1em;
+		transition: 2s;
+		cursor: pointer;
+	}
+
+	.kolombawah{
+		position: relative;
+		margin: auto;
+		margin-left: 10%;
+		margin-bottom: 1%; 
+	}
