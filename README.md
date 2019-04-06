@@ -8,10 +8,10 @@
 <h1><strong>Facebook Development Circle and Hacktiv8</strong></h1>
 <b>JavaScript Development Bacth 1</b>
 <ul>
-    <li>Sesion 1 : February 18th, 2019 || Target : <a href="https://github.com/arifpujin/Hacktiv8-JSDevelopment/tree/master/Exersice1">Exercise1</a></li>
-    <li>Sesion 2 : February 20th, 2019 || Target : <a href="https://github.com/arifpujin/Hacktiv8-JSDevelopment/tree/master/Exersice2">Exercise2</a></li>
-    <li>Sesion 3 : February 25th, 2019 || Target : <a href="https://github.com/arifpujin/Hacktiv8-JSDevelopment/tree/master/Exersice3">Exercise3</a></li>
-    <li>Sesion 4 : February 27th, 2019 || Target : <a href="https://github.com/arifpujin/Hacktiv8-JSDevelopment/tree/master/Final-Project">Final Project</a></li>
+    <li>Session 1 : February 18th, 2019 || Target : <a href="https://github.com/arifpujin/Hacktiv8-JSDevelopment/tree/master/Exersice1">Exercise1</a></li>
+    <li>Session 2 : February 20th, 2019 || Target : <a href="https://github.com/arifpujin/Hacktiv8-JSDevelopment/tree/master/Exersice2">Exercise2</a></li>
+    <li>Session 3 : February 25th, 2019 || Target : <a href="https://github.com/arifpujin/Hacktiv8-JSDevelopment/tree/master/Exersice3">Exercise3</a></li>
+    <li>Session 4 : February 27th, 2019 || Target : <a href="https://github.com/arifpujin/Hacktiv8-JSDevelopment/tree/master/Final-Project">Final Project</a></li>
 </ul>
 edited by https://arifpujin.com
 email    : <a href="mailto:arifpujinugroho@gmail.com" target="_blank">arifpujinugroho@gmail.com</a>
