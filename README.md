@@ -13,7 +13,6 @@
     <li>Sesion 3 : February 25th, 2019 || Target : <a href="https://github.com/arifpujin/Hacktiv8-JSDevelopment/tree/master/Exersice3">Exercise3</a></li>
     <li>Sesion 4 : February 27th, 2019 || Target : <a href="https://github.com/arifpujin/Hacktiv8-JSDevelopment/tree/master/Final-Project">Final Project</a></li>
 </ul>
-<br><br><br>
 edited by https://arifpujin.com
 email    : <a href="mailto:arifpujinugroho@gmail.com" target="_blank">arifpujinugroho@gmail.com</a>
 
